@@ -1,0 +1,32 @@
+/*------- Fonts ------*/
+
+h1 {font-size: 40px;
+    color: purple;}
+p {color: teal;}
+
+.container1 {
+    width: 160px;
+    height: 350px;
+    background-color: bisque;
+    text-align: left;
+    margin: 10px;
+}
+.container2 {
+    width: 160px;
+    height: 350px;
+    background-color: bisque;
+    text-align: left;
+    margin: 10px;
+}.container3 {
+    width: 160px;
+    height: 350px;
+    background-color: bisque;
+    text-align: left;
+    margin: 10px;
+}.container4 {
+    width: 160px;
+    height: 350px;
+    background-color: bisque;
+    text-align: left;
+    margin: 10px;
+}
