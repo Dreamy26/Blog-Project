@@ -3,49 +3,48 @@
 h1 {font-size: 40px;
     color: purple;}
 p {color: teal;}
-
+/*----Title----*/
+.title {
+    text-align: center;
+}
 
 /*-----Containers-----*/
 .blogContainers {
     display: grid;
-
     height: auto;
     grid-template-areas: 
     "container1 container2 container3 container4";
     grid-column-end: 0px;
-    grid-row-end: -1px;
+    grid-row-end: 0px;
 }
 
 
 .container1 {
-  
     width: 160px;
     height: 350px;
     background-color: bisque;
     text-align: left;
-    margin: 8px
+    margin: -20px
 }
 .container2 {
     
-    width: 160px;
+    width: 350px;
     height: 350px;
     background-color: bisque;
     text-align: center;
-    margin: 8px
+    margin: -20px
 }
 .container3 {
-  
-    width: 160px;
+    width: 350px;
     height: 350px;
     background-color: bisque;
     text-align: center;
-    margin: 8px
+    margin: -20px
 }
 .container4 {
-   
-    width: 160px;
+    width: 350px;
     height: 350px;
     background-color: bisque;
     text-align: center;
-    margin: 8px
+    margin: -20px
 }
