@@ -6,50 +6,46 @@ p {color: teal;}
 
 
 /*-----Containers-----*/
-.blogcontainers {
+.blogContainers {
     display: grid;
-    grid-template-columns: 10px;
+
     height: auto;
     grid-template-areas: 
     "container1 container2 container3 container4";
-    grid-column-end: 10px;
-    grid-row-end: 10px;
+    grid-column-end: 0px;
+    grid-row-end: 0px;
 }
 
 
 .container1 {
+  
     width: 160px;
     height: 350px;
     background-color: bisque;
     text-align: left;
-    display:inline-block;
     margin: 8px
-
-  
 }
 .container2 {
+    
+    width: 160px;
+    height: 350px;
+    background-color: bisque;
+    text-align: center;
+    margin: 8px
+}
+.container3 {
   
     width: 160px;
     height: 350px;
     background-color: bisque;
     text-align: center;
-    display:inline-block; 
     margin: 8px
+}
+.container4 {
    
-   
-    
-}.container3 {
     width: 160px;
     height: 350px;
     background-color: bisque;
     text-align: center;
     margin: 8px
-   
-}.container4 {
-    width: 160px;
-    height: 350px;
-    background-color: bisque;
-    text-align: center;
-    margin: 8px
-   
 }
