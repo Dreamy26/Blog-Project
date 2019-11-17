@@ -49,14 +49,14 @@ text {
     grid-row-end: 10px;
     
 }
-@media  (max-width: 700px) {
-    .blogContainers {
+@media screen and (max-width: 545px) {
+   body, .blogContainers {
     grid-template-areas:
         'container1'
         'container2'
         'container4'
         'container4';
-        margin: 120px;
+        margin: 20px;
     }
 }
 
