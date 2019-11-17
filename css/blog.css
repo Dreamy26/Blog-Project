@@ -4,29 +4,52 @@ h1 {font-size: 40px;
     color: purple;}
 p {color: teal;}
 
+
+/*-----Containers-----*/
+.blogcontainers {
+    display: grid;
+    grid-template-columns: 10px;
+    height: auto;
+    grid-template-areas: 
+    "container1 container2 container3 container4";
+    grid-column-end: 10px;
+    grid-row-end: 10px;
+}
+
+
 .container1 {
     width: 160px;
     height: 350px;
     background-color: bisque;
     text-align: left;
-    margin: 10px;
+    display:inline-block;
+    margin: 8px
+
+  
 }
 .container2 {
+  
     width: 160px;
     height: 350px;
     background-color: bisque;
-    text-align: left;
-    margin: 10px;
+    text-align: center;
+    display:inline-block; 
+    margin: 8px
+   
+   
+    
 }.container3 {
     width: 160px;
     height: 350px;
     background-color: bisque;
-    text-align: left;
-    margin: 10px;
+    text-align: center;
+    margin: 8px
+   
 }.container4 {
     width: 160px;
     height: 350px;
     background-color: bisque;
-    text-align: left;
-    margin: 10px;
+    text-align: center;
+    margin: 8px
+   
 }
