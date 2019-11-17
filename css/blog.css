@@ -13,7 +13,7 @@ p {color: teal;}
     grid-template-areas: 
     "container1 container2 container3 container4";
     grid-column-end: 0px;
-    grid-row-end: 0px;
+    grid-row-end: -1px;
 }
 
 
