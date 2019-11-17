@@ -1,6 +1,9 @@
 /*----Background----*/
 
-body {background-color: rgb(126, 119, 175);}
+body {background-color: rgb(126, 119, 175);
+    background-image: url(/Images/MeSkates2.jpg);
+    background-size: cover;
+}
 
 
 
