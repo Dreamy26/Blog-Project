@@ -1,22 +1,36 @@
 /*----Background----*/
 
-body {background-color: rgb(126, 119, 175);
-    background-image: url(/Images/MeSkates2.jpg);
+
+body {
+
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(/Images/MeSkates2.jpg);
     background-size: cover;
 }
+
+/*---   background-color: rgb(126, 119, 175, .0);
 
 
 
 /*----Fonts----*/
 
 h1 {font-size: 50px;
-    color: purple;}
+    color: rgb(216, 186, 216);}
 h3 {font-size: 30px;
-    color: black;}
+    color: rgb(216, 133, 133);}
+h4 {font-size: 25px;
+    color: rgb(216, 133, 133);}
 h6 {font-size: 26px;
     color: palevioletred;}
-p {font-size: 20px;
-    color: teal;}
+p {font-size: 25px;
+    color: rgb(28, 172, 172);}
+li {font-size: 18px;
+    color: rgb(103, 231, 231);}
+
 text {
     padding: 30px;}
 
@@ -42,14 +56,14 @@ text {
         'container2'
         'container4'
         'container4';
-        margin: 135px;
+        margin: 120px;
     }
 }
 
 .container1 {
     width: 160px;
     height: 500px;
-    background-color: rgb(232, 222, 209, 0.3);
+    background-color: rgb(232, 222, 209, 0.0);
     text-align: left;
     margin: -20px
 }
@@ -64,14 +78,14 @@ text {
 .container3 {
     width: 400px;
     height: 500px;
-    background-color:rgb(232, 222, 209);
+    background-color:rgb(232, 222, 209,.0);
     text-align: center;
     margin: -20px
 }
 .container4 {
     width: 400px;
     height: 500px;
-    background-color:rgb(232, 222, 209);
+    background-color:rgb(232, 222, 209, .0);
     text-align: center;
     margin: -20px
 }
